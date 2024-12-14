@@ -5,7 +5,7 @@ $(document).ready(function () {
         var formData = $(this).serialize(); // Get form data
 
         $.ajax({
-            url: 'submit.php',
+            url: 'form_handler.php',
             type: 'POST',
             data: formData,
             success: function (response) {
