@@ -146,9 +146,6 @@ if (isset($_GET['success'])) {
                 </fieldset>
                 <button type="submit">Submit</button>
             </form>
-                <!-- Container to display success or error messages -->
-<div id="responseData"></div>
-<div id="errorContainer"></div>
         </section>
 
         <footer>
